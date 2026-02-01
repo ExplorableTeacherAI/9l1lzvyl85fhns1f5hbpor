@@ -91,7 +91,21 @@ export const sections: ReactElement[] = [
                 This section demonstrates the inline editing feature. Click the Edit button in the header to enable editing mode. Then you can click on text to edit it directly, or hover over equations to see the edit button.
             </EditableText>
             <EditableText as="p" className="text-foreground">
-                Physics is the study of matter, energy, and the fundamental forces that govern the universe. Try editing this paragraph! test
+                Physics is the study of matter, energy, and the fundamental forces that govern the universe. Try editing this paragraph! test bla
+            </EditableText>
+        </Section>
+    </FullWidthLayout>,
+    <FullWidthLayout key="section-1769973450384" maxWidth="xl">
+        <Section id="section-1769973450384">
+            <EditableText as="p" className="text-foreground">
+                this is first added text para
+            </EditableText>
+        </Section>
+    </FullWidthLayout>,
+    <FullWidthLayout key="section-1769973472683" maxWidth="xl">
+        <Section id="section-1769973472683">
+            <EditableText as="p" className="text-foreground">
+                this is second added text para
             </EditableText>
         </Section>
     </FullWidthLayout>,
